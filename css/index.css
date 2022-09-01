@@ -478,15 +478,19 @@ to{
     padding: 30px;
     border-bottom: 1px solid black;
 }
+
 .protfolio .shuffle li:hover{
     color: var(--main-color);
     border-color: var(--main-color);
     cursor: pointer;
 }
 
-.protfolio .shuffle li .active{
+.protfolio .shuffle li:first-of-type {
     background-color: var(--main-color);
     color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: black;
 }
 
 .protfolio .image-container{
@@ -555,6 +559,7 @@ to{
 .protfolio .more:hover{
     transform: scale(1.3) ;
 }
+
 /* End Portfolio */
 /* start video */
 .video{
